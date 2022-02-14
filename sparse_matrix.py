@@ -1,4 +1,5 @@
-# Submitter: sue4(Su, Emily)
+# Author: Emily Su
+# Last Revised: February 2022
 
 import prompt
 from goody import type_as_str
@@ -389,7 +390,6 @@ class Sparse_Matrix:
 
 if __name__ == '__main__':
     #Simple tests
-
     m = Sparse_Matrix(3,3, (0,0,1),(1,1,3),(2,2,1))
     print(m)
     print(repr(m))
